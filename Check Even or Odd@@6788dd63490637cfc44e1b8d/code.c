@@ -11,7 +11,7 @@ int main() {
         printf("Even\n");
     }
     else{
-    printf("Odd\n")
+    printf("Odd\n");
     }
     return 0;
 }
