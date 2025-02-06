@@ -23,7 +23,10 @@ int main() {
           break;
         case 7:
           printf("Sunday");
-          break;      
+          break;
+        case 8:
+          printf("Invalid");
+          break;        
     }
     return 0;
 }
