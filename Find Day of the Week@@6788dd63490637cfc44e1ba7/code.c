@@ -2,6 +2,10 @@
 int main() {
     int day;
     scanf("%d",&day);
+    if(day==0){
+        printf("Invalid");
+    }
+    else{
     switch(day){
         case 1:
           printf("Monday");
@@ -27,6 +31,7 @@ int main() {
         case 8:
           printf("Invalid");
           break;        
+    }
     }
     return 0;
 }
