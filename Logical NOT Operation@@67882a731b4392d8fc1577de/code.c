@@ -5,7 +5,7 @@ int main() {
     if(a!=0){
         printf("True");
     }
-    ellse{
+    else{
         printf("False");
     }
     return 0;
